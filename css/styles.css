@@ -1,9 +1,7 @@
 
-
+/*********** Images ************* */
 .bg-image {
     background-image: url('/img/moutain.jpg');
-    
-    
 }
 .bg-image-card-1 {
     background-image: url('/img/unleash.jpg');
@@ -20,25 +18,18 @@
     background-size: cover;
     height: 400px;
 }
-/* Header ***************************** */
+/* ****Navbar ********************* */
+.navbar {
+    border: 1px solid transparent;
+}
+/* Header Start***************************** */
 .header-content .bg-image {
-    height: 400px;
+    height: 600px;
 }
-.header .header-content .header-content-inner h1 {
-    
-    margin-bottom: 20px;
-    font-weight: 0;
-}
-
 h1 {
     font-size: 100px;
-    margin: .67em 0;
 }
 
-
-.btn-lg {
-    padding: 15px 30px;
-}
 .btn {
     border-radius: 300px;
     text-transform: uppercase;
@@ -49,6 +40,14 @@ h1 {
     background-color: yellowgreen;
     transition: all .35s;
 }
+/* ****** Intro *********** */
+.intro {
+    color: #fff;
+    background-color: yellowgreen;
+    padding: 10px 0;
+    justify-content: center;
+    text-align: center;
+}
 /* Content ********************** */
 .text-light {
     color: rgba(255, 255, 255, .7);
@@ -57,33 +56,16 @@ p {
     font-size: 16px;
     line-height: 1.5;
 }
-p {
-    margin: 0 0 10px;
-}
-/* ***************** */
-.intro {
-    color: #fff;
-    background-color: yellowgreen;
-    padding: 10px 0;
-    justify-content: center;
-    text-align: center;
-}
-
 /* ******************* */
 .content-1 {
     color: black;
     background-color: #fff;
-    padding: 10px 0;
     text-align: center;
 }
 .col-sm-6 {
     width: 50%;
-    font-size: 16PX;
     float: left;
     position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
 }
 .img-circle {
     border-radius: 50%;
@@ -96,7 +78,6 @@ p {
 .content-2 {
     color: #fff;
     background-color: black;
-    padding: 10px 0;
     text-align: center;
 }
 .content-2 .btn {
@@ -120,23 +101,19 @@ p {
 .content-4 {
     color: black;
     background-color: #fff;
-    padding: 10px 0;
     text-align: center;
 }
 
 /* ******************* */
 .content-5 {
-    border-color: black;
     color: #fff;
     background-color: yellowgreen;
-    /* padding: 70px 0; */
     text-align: center;
 }
 /* ******************* */
 .content-6 {
     color: black;
     background-color: #fff;
-    padding: 20px 0;
     text-align: center;
 }
 /* ******************* */
