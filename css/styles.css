@@ -1,3 +1,25 @@
+
+
+.bg-image {
+    background-image: url('/img/moutain.jpg');
+    
+    
+}
+.bg-image-card-1 {
+    background-image: url('/img/unleash.jpg');
+    background-size: cover;
+    height: 400px;
+}
+.bg-image-card-2 {
+    background-image: url('/img/synergize.jpg');
+    background-size: cover;
+    height: 400px;
+}
+.bg-image-card-3 {
+    background-image: url('/img/procrastinate.jpg');
+    background-size: cover;
+    height: 400px;
+}
 /* Header ***************************** */
 .header-content .bg-image {
     height: 400px;
